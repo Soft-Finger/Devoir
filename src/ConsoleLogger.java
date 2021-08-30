@@ -4,8 +4,7 @@ public class ConsoleLogger extends AbstractTimestampLogger {
     }
 
     @Override
-    protected ILogger log(ILogger l) {
-        return null;
+    public void log(ILogger l) {
     }
 
     @Override

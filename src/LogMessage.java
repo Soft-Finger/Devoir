@@ -7,6 +7,6 @@ public class LogMessage implements ILoggable {
 
     @Override
     public String logTrace(String m) {
-        return this.message;
+        return this.message = m;
     }
 }

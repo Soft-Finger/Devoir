@@ -1,3 +1,3 @@
 public interface ILoggable {
-    public String logTrace(String m);
+    public void logTrace(String m);
 }
